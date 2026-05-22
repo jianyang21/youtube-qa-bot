@@ -3,8 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "author": "Devar (jianyang21)",
-  "description": "YouTube Q&A Bot — chat with any YouTube video using AI",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

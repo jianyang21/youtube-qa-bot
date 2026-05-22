@@ -1,14 +1,14 @@
 # YouTube Q&A Bot
 
-A full-stack web app that lets you paste any YouTube URL and chat with an AI about the video's content. Built by **Devar** ([@jianyang21](https://github.com/jianyang21)).
+A full-stack web app that lets you paste any YouTube URL and chat with an AI about the video's content.
 
 ## Features
 
-- 🔐 **Authentication** — sign up, log in, log out with JWT + bcrypt
-- 🎬 **YouTube transcript fetching** — no API key required
-- 💬 **Real-time streaming chat** — answers stream token-by-token via SSE
-- ⚡ **Fast & free AI** — powered by Groq (llama-3.3-70b-versatile)
-- 🎨 **Modern dark UI** — premium design with smooth animations
+- 🔐 Authentication — sign up, log in, log out with JWT + bcrypt
+- 🎬 YouTube transcript fetching — no API key required
+- 💬 Real-time streaming chat — answers stream token-by-token via SSE
+- ⚡ Fast & free AI — powered by Groq (llama-3.3-70b-versatile)
+- 🎨 Modern dark UI — smooth animations and clean design
 
 ## Setup
 
@@ -79,6 +79,6 @@ youtube-qa/
         └── index.css        # Modern dark theme
 ```
 
-## Author
+## License
 
-Built by **Devar** — [github.com/jianyang21](https://github.com/jianyang21)
+MIT

@@ -18,11 +18,7 @@ from pathlib import Path
 
 load_dotenv()
 
-app = FastAPI(
-    title="YouTube Q&A API",
-    description="Built by Devar (jianyang21)",
-    version="1.0.0",
-)
+app = FastAPI(title="YouTube Q&A API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
